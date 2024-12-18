@@ -10,8 +10,7 @@ function xi = getXi(g)
     % Note:
     %   This function computes the twist vector xi in se(3) corresponding to the transformation g.
     %   It does not normalize xi.
-    % Aurthor: Wenxuan Zheng, Chang Liu, Chenhao Yu, Xingyu Wang
-    % Date:    20241115
+
 
     % Validate the input
     if ~isequal(size(g), [4, 4]) || ~isequal(g(4, :), [0, 0, 0, 1])
