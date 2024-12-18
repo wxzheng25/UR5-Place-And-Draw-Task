@@ -8,8 +8,7 @@ function R = SKEW3(x)
 %
 % Output:
 %    R: 3 × 3 skew-symmetric matrix
-% Aurthor: Wenxuan Zheng, Chang Liu, Chenhao Yu, Xingyu Wang
-% Date:    20241115
+
 
 R = [  0   -x(3)  x(2);
       x(3)   0    -x(1);
