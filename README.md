@@ -15,5 +15,5 @@ Advisor: Prof. Jin Seob Kim, Johns Hopkins University
 # Jacobian-Transpose Control
 
 # Extra: drawing heart curve
-[Youtube]([https://www.youtube.com/shorts/J2ZF0l7E2To](https://www.youtube.com/shorts/J2ZF0l7E2To))
+[Youtube][https://www.youtube.com/shorts/J2ZF0l7E2To](https://www.youtube.com/shorts/J2ZF0l7E2To)
 
