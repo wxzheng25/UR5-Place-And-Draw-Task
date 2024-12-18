@@ -11,8 +11,7 @@ function mu = manipulability(J, measure)
     % Output:
     %   mu: The computed manipulability measure
     %
-    % Aurthor: Wenxuan Zheng, Chang Liu, Chenhao Yu, Xingyu Wang
-    % Date:    20241115
+
     %
     % Validate the inputs
     if ~ismatrix(J) || size(J, 1) ~= 6 || size(J, 2) ~= 6
