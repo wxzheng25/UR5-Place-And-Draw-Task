@@ -9,8 +9,7 @@ function finalerr = ur5RRcontrol(gdesired, K, ur5)
     % Output:
     %   finalerr: -1 if failure (e.g., singularity encountered), else the final positional error in cm
     %
-    % Aurthor: Wenxuan Zheng, Chang Liu, Chenhao Yu, Xingyu Wang
-    % Date:    20241115
+
 
     % Initialize parameters
     threshold_v = 0.003; 
