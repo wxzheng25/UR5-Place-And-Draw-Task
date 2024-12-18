@@ -8,8 +8,7 @@ function xi = twistify(X)
     %   xi: 6x1 twist vector [v; omega]
     %
     % Extract the rotational part (omega_hat) and the translational part (v)
-    % Aurthor: Wenxuan Zheng, Chang Liu, Chenhao Yu, Xingyu Wang
-    % Date:    20241115
+
     omega_hat = X(1:3, 1:3);
     v = X(1:3, 4);
 
