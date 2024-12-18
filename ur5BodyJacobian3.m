@@ -7,8 +7,7 @@
 % Output: J: Body Jacobian, Jsbt
 %
 % function : FINV(), SKEW3()
-% Aurthor: Wenxuan Zheng, Chang Liu, Chenhao Yu, Xingyu Wang
-% Date:    20241115
+
 function Jst_body = ur5BodyJacobian3(Q)
     % Check input
     [rows, cols] = size(Q);
