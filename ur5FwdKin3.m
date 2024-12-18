@@ -9,8 +9,7 @@ function gst = ur5FwdKin3(q)
     % Outputs:
     %   gst: 4x4 homogeneous transformation matrix of the end-effector pose.
     %
-    % Aurthor: Wenxuan Zheng, Chang Liu, Chenhao Yu, Xingyu Wang
-    % Date:    20241115
+
 [rows, cols] = size(q);
     if ((rows ~= 6) || (cols ~= 1))
         error('ur5FwdKin requires a 6-by-1 joint vector argument. Check your dimensions.');
