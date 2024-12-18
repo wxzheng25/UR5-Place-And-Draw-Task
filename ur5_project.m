@@ -1,7 +1,3 @@
-% final project
-%             
-% Aurthor: Wenxuan Zheng, Chang Liu, Chenhao Yu, Xingyu Wang
-% Date:    20241209
 
 
 clear all
